@@ -1,0 +1,61 @@
+#login{
+	float:left;
+	width:519px;
+	height:1000px;
+	display:block;
+	margin:30px 0 30px 30px;
+	border-right:1px solid #BBBBBB;
+}
+#login input[type=text],#login input[type=password],#registration input[type=text],#registration input[type=password]{
+	width:300px;
+	height:20px;
+	padding:5px;
+	font-size:16px;
+}
+#registration select{
+	width:314px;
+	height:34px;
+	padding:5px;
+	font-size:16px;
+}
+#login input[type=submit],#registration input[type=submit]{
+	height: 35px;
+	width: 150px;
+	font-size:18px;
+	float:left;
+	background-color:#4380d3;
+	border: none;
+	font-family: cursive;
+	color:#ffffff;
+	cursor:pointer;
+}
+
+#login input[type=submit]:hover,#registration input[type=submit]:hover{
+	background-color:#6996d3;
+}
+
+#login p,#registration p{
+	font-size:16px;
+}
+#registration{
+	float:left;
+	width:480px;
+	height:1000px;
+	display:block;
+	margin:30px;
+}
+#body{
+	height:1060px;
+	font-size:20px;
+}
+
+#fail,#win{
+	width:470px;
+	height: 25px;
+	padding:10px;
+	background-color: #ffcccc;
+	font-size:15px;
+}
+#win{
+	background-color: #bbffbb;
+}

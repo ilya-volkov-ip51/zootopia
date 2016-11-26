@@ -1,0 +1,73 @@
+#unlog input[type=submit]{
+	height: 45px;
+	width: 200px;
+	font-size:22px;
+	float:left;
+	margin:15px 0 0 0;
+	background-color:#4380d3;
+	border: none;
+	font-family: cursive;
+	color:#ffffff;
+	cursor:pointer;
+}
+
+#unlog input[type=submit]:hover{
+	background-color:#6996d3;
+}
+
+#edit input[type=submit]{
+	height: 45px;
+	width: 200px;
+	font-size:22px;
+	margin:15px 0 0 15px;
+	float:left;
+	background-color:#9ACD32;
+	border: none;
+	font-family: cursive;
+	color:#ffffff;
+	cursor:pointer;
+}
+
+#edit input[type=submit]:hover{
+	background-color:#aed75a;
+}
+
+#delete button{
+	height: 35px;
+	width: 150px;
+	font-size:18px;
+	float:left;
+	background-color:#FF8940 ;
+	border: none;
+	font-family: cursive;
+	color:#ffffff;
+	cursor:pointer;
+}
+
+#delete button:hover{
+	background-color: #FFa873;
+}
+
+#user{
+	width: 1000px;
+	height: 400px;
+	padding: 10px 0 0 0;
+	margin: 0 50px;
+	font-size: 18px;
+	line-height:42px;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+#data{
+	width: 820px;
+	margin: 0 auto;
+	padding-bottom:50px;
+}
+#body{
+	height:auto;
+}
+
+h2{
+	text-align:center;
+	font-size: 28px;
+}
