@@ -43,7 +43,7 @@
 			<div id="wrapper">
 				<?php 
 					if(isset($currlogin)) echo '<a href="#" id="account">'.$currlogin.'</a>';
-					else echo '<a href="registration.php" id="account">Войти в профиль</a>';
+					else echo '<a href="registration.php" id="account">Вход / Регистрация</a>';
 				?>
 				<a href="<?php if(!isset($currlogin)) echo 'registration.php'; else echo 'add.php';?>" id="add">НОВОЕ ОБЪЯВЛЕНИЕ</a>
 			</div>

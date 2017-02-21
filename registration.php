@@ -72,7 +72,7 @@
 				<?php 
 					if($entered==1) echo '<a href="user.php" id="account">'.$oldlogin.'</a>';
 					else if(isset($currlogin)) echo '<a href="user.php" id="account">'.$currlogin.'</a>';
-					else echo '<a href="#" id="account">Войти в профиль</a>';
+					else echo '<a href="#" id="account">Вход / Регистрация</a>';
 				?>
 				<a href="<?php if(!isset($currlogin)&& $entered!=1) echo 'registration.php'; else echo 'add.php';?>" id="add">НОВОЕ ОБЪЯВЛЕНИЕ</a>
 			</div>
